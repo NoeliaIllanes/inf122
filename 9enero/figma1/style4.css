@@ -148,6 +148,7 @@ body{
     font-size: var(--md);
     cursor: pointer;
     margin: 100px 0 100px 0;
+    text-align: center;
 }
 
 .more-info {
@@ -188,9 +189,11 @@ body{
     font-size: var(--sm);
     margin: 0;
 }
+
+/* para que sea responsive */
 @media (max-width:720px){
     .icons-container{
-        grid-template-columns: : repeat(1, 1fr);
-        margin: 50px 10px 50px 10px;
+        grid-template-columns: repeat(1, 1fr);
+        margin:50px 10px 50px 10px;
     }
 }
