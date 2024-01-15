@@ -26,4 +26,10 @@ body {
 .contendedor-botones {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2,1fr);
+}
+.reinicio{
+  align-items: center;
+  width: 300px;
+  height: 80px;
 }
