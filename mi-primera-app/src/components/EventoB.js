@@ -5,19 +5,15 @@ function EventoB(props) {
         <div className="card-container">
 
             <img className="card-image"
-                src={require(`../images/${props.image}.jpeg`)} 
+                src={require(`../images/${props.image}.jpeg`)}
                 alt="Foto del evento" />
 
 
             <div className="card-content">
-                {/* props se usa cuando se llaman valores  */}
                 <h2 className="card-title">{props.title}</h2>
                 <p className="card-date">{props.dateLiteral}</p>
                 <p className="card-place">{props.placeLiteral}</p>
-                <p className="card-description">{props.description}</p>
-                <div>
-                    <img class
-                </div>
+                {props.description.map((line, index) => (<p className="card-description">{line}</p>))}
             </div>
         </div>
     );
