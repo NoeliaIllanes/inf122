@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Cuadro.css';
 
-function Cuadro({ valor }) {
+function Cuadro({ valor }) { // eslint-disable-line no-unused-vars
     return (
         <button className="cuadro">
             {valor}

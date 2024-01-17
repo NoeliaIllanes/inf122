@@ -4,7 +4,7 @@ import CuadroB from './CuadroB';
 import { useState } from 'react';
 
 
-function TableroD() {
+function TableroD() { // eslint-disable-line no-unused-vars
     function calcularGanador(cuadros) {
         const lineas = [
             [0, 1, 2], // primera fila

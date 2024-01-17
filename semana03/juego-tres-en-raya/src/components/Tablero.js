@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/Tablero.css';
 import Cuadro from './Cuadro';
 function Tablero() {
-
+ // eslint-disable-line no-unused-vars
     return (
         <div className="tablero">
             <Cuadro valor={0} />

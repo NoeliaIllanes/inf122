@@ -4,7 +4,7 @@ import CuadroB from './CuadroB';
 import { useState } from 'react';
 
 
-function TableroC() {
+function TableroC() { // eslint-disable-line no-unused-vars
     const [cuadros, setCuadros] = useState(Array(9).fill(null));
     const [jugador, setJugador] = useState("O");
     const click = (i) => {

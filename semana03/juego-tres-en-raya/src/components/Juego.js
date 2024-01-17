@@ -2,7 +2,7 @@ import React from 'react';
 import TableroE from './TableroE';
 import { useState } from 'react';
 
-function Juego() {
+function Juego() { // eslint-disable-line no-unused-vars
     const [cuadros, setCuadros] = useState(Array(9).fill(null));
     const [jugador, setJugador] = useState("X");
     const [ganador, setGanador] = useState(null);
@@ -29,7 +29,7 @@ function Juego() {
 }
 export default Juego;
 
-function calcularGanador(cuadros) {
+function calcularGanador(cuadros) { // eslint-disable-line no-unused-vars
     const lineas = [
         [0, 1, 2], // primera fila
         [3, 4, 5], // segunda fila

@@ -4,7 +4,7 @@ import Historial from './Historial';
 import TableroE from './TableroE';
 import { useState } from 'react';
 
-function Juego() {
+function Juego() { // eslint-disable-line no-unused-vars
     const [historial, setHistorial] = useState([
         {
             cuadros: Array(9).fill(null)

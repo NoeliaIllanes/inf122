@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Historial({ historial, saltarA }) {
+function Historial({ historial, saltarA }) { // eslint-disable-line no-unused-vars
     const movimientos = historial.map((paso, movimiento) => {
         const descripcion = movimiento ?
             `Ir al movimiento #${movimiento}` :

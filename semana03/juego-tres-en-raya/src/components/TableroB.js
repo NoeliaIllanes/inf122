@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/Tablero.css';
 import CuadroB from './CuadroB';
 
-function TableroB() {
+function TableroB() { // eslint-disable-line no-unused-vars
     const click = () => {
         console.log('click');
     }
