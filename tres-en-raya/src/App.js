@@ -10,8 +10,11 @@ import JuegoA from './components/JuegoA';
 
 function App() {
 
+
+
   return (
     <div className="App">
+
       {/* <Tablero />
       <TableroB />
       <TableroE />

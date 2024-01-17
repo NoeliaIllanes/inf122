@@ -2,6 +2,8 @@ import React from 'react';
 import '../style/Tablero.css';
 import CuadroB from './CuadroB';
 import { useState } from 'react';
+
+
 function TableroC() {
     const [cuadros, setCuadros] = useState(Array(9).fill(null));
     const [jugador, setJugador] = useState("O");
@@ -9,13 +11,13 @@ function TableroC() {
         const cuadrosTemp = [...cuadros];
         cuadrosTemp[i] = jugador;
         setCuadros(cuadrosTemp);
-        //operador ternario
         if (jugador === "X") {
             setJugador("O");
         } else {
             setJugador("X");
         }
     }
+
     return (
         <div className='juego'>
             <h1>Siguiente Jugador: {jugador}</h1>

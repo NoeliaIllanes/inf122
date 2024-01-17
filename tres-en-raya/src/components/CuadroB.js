@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/Cuadro.css';
+
 function CuadroB({ valor, funcion }) {
     return (
         <button className="cuadro" onClick={funcion}>
@@ -7,4 +8,5 @@ function CuadroB({ valor, funcion }) {
         </button>
     );
 }
+
 export default CuadroB;
