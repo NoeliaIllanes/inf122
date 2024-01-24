@@ -1,0 +1,449 @@
+.simply-portfolio {
+    background-color: #0c151d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.simply-portfolio .div {
+    background-color: #0c151d;
+    height: 1999px;
+    position: relative;
+    width: 1728px;
+}
+
+.simply-portfolio .profile-info {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    left: 548px;
+    position: absolute;
+    top: 178px;
+    width: 631px;
+}
+
+.simply-portfolio .group {
+    background-color: #ffffff;
+    border: 4px solid;
+    border-color: #ffe071;
+    border-radius: 107.5px;
+    height: 215px;
+    position: relative;
+    width: 215px;
+}
+
+.simply-portfolio .ellipse {
+    height: 192px;
+    left: 8px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 192px;
+}
+
+.simply-portfolio .frame {
+    height: 156px;
+    position: relative;
+    width: 372px;
+}
+
+.simply-portfolio .text-wrapper {
+    color: #f1f2f4;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 46px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    width: 372px;
+}
+
+.simply-portfolio .text-wrapper-2 {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 71px;
+    width: 372px;
+}
+
+.simply-portfolio .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 26px;
+    left: 0;
+    position: absolute;
+    top: 117px;
+}
+
+.simply-portfolio .icon-instance-node {
+    height: 36px !important;
+    position: relative !important;
+    width: 36px !important;
+}
+
+.simply-portfolio .profile-facts {
+    align-items: center;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    left: 547px;
+    padding: 20px 2px;
+    position: absolute;
+    top: 441px;
+    width: 634px;
+}
+
+.simply-portfolio .frame-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 148px;
+}
+
+.simply-portfolio .text-wrapper-3 {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+
+.simply-portfolio .text-wrapper-4 {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: -23px;
+    margin-right: -23px;
+    position: relative;
+    text-align: center;
+    width: 194px;
+}
+
+.simply-portfolio .frame-4 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.simply-portfolio .text-wrapper-5 {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.simply-portfolio .tabs-buttons {
+    height: 132px;
+    left: 486px;
+    position: absolute;
+    top: 785px;
+    width: 756px;
+}
+
+.simply-portfolio .overlap-group {
+    background-color: #171f26;
+    border-radius: 20px;
+    height: 118px;
+    left: -1px;
+    position: relative;
+    top: 7px;
+    width: 758px;
+}
+
+.simply-portfolio .rectangle-copy {
+    background-color: #0c151d;
+    border: 0px none;
+    border-radius: 10px;
+    height: 82px;
+    left: 24px;
+    position: absolute;
+    top: 18px;
+    width: 352px;
+}
+
+.simply-portfolio .yearly {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 25px;
+    letter-spacing: -0.5px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: 349px;
+}
+
+.simply-portfolio .monthly {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 375px;
+    letter-spacing: -0.5px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    width: 382px;
+}
+
+.simply-portfolio .profile-buttons {
+    height: 80px;
+    left: 555px;
+    position: absolute;
+    top: 630px;
+    width: 618px;
+}
+
+.simply-portfolio .button {
+    all: unset;
+    box-sizing: border-box;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 290px;
+}
+
+.simply-portfolio .overlap {
+    background-color: #ffe071;
+    border-radius: 10px;
+    height: 82px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 292px;
+}
+
+.simply-portfolio .overlap-group-wrapper {
+    height: 33px;
+    left: 43px;
+    position: relative;
+    top: 25px;
+    width: 208px;
+}
+
+.simply-portfolio .overlap-group-2 {
+    height: 33px;
+    position: relative;
+    width: 206px;
+}
+
+.simply-portfolio .get-started {
+    color: #3c3c3c;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: -0.53px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 182px;
+}
+
+.simply-portfolio .arrows-bottom {
+    height: 24px !important;
+    left: 179px !important;
+    position: absolute !important;
+    top: 5px !important;
+    width: 27px !important;
+}
+
+.simply-portfolio .overlap-wrapper {
+    height: 80px;
+    left: 328px;
+    position: absolute;
+    top: 0;
+    width: 290px;
+}
+
+.simply-portfolio .div-wrapper {
+    background-color: #171f26;
+    border-radius: 10px;
+    height: 82px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 292px;
+}
+
+.simply-portfolio .text-wrapper-6 {
+    color: #a3abb2;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 82px;
+    letter-spacing: -0.5px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+}
+
+.simply-portfolio .tabs-content {
+    border-radius: 20px;
+    height: 826px;
+    left: 485px;
+    overflow: hidden;
+    position: absolute;
+    top: 982px;
+    width: 757px;
+}
+
+.simply-portfolio .hover-overlay-in {
+    height: 226px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 366px;
+}
+
+.simply-portfolio .overlap-group-3 {
+    background-image: url(./rectangle-1-5.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 226px;
+    position: relative;
+    width: 362px;
+}
+
+.simply-portfolio .text-wrapper-7 {
+    color: #3c3c3c;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    left: 83px;
+    letter-spacing: -0.53px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 54px;
+}
+
+.simply-portfolio .landing-page-of {
+    color: #3c3c3c;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 35px;
+    letter-spacing: -0.53px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+}
+
+.simply-portfolio .user-interface-link-wrapper {
+    background-color: #ffffff;
+    border-radius: 19px;
+    height: 38px;
+    left: 162px;
+    position: absolute;
+    top: 150px;
+    width: 38px;
+}
+
+.simply-portfolio .user-interface-link {
+    height: 20px !important;
+    left: 9px !important;
+    position: absolute !important;
+    top: 9px !important;
+    width: 20px !important;
+}
+
+.simply-portfolio .location-and-map {
+    height: 57px !important;
+    left: 238px !important;
+    position: absolute !important;
+    top: 133px !important;
+    width: 57px !important;
+}
+
+.simply-portfolio .group-2 {
+    background-image: url(./rectangle-1.png);
+    background-size: 100% 100%;
+    height: 226px;
+    left: 395px;
+    position: absolute;
+    top: 0;
+    width: 362px;
+}
+
+.simply-portfolio .group-3 {
+    background-image: url(./image.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 226px;
+    left: 1px;
+    position: absolute;
+    top: 274px;
+    width: 362px;
+}
+
+.simply-portfolio .group-4 {
+    background-image: url(./rectangle-1-2.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 226px;
+    left: 1px;
+    position: absolute;
+    top: 548px;
+    width: 362px;
+}
+
+.simply-portfolio .group-5 {
+    background-image: url(./rectangle-1-3.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 226px;
+    left: 395px;
+    position: absolute;
+    top: 274px;
+    width: 362px;
+}
+
+.simply-portfolio .group-6 {
+    background-image: url(./rectangle-1-4.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 226px;
+    left: 395px;
+    position: absolute;
+    top: 548px;
+    width: 362px;
+}
+
+@media screen and (max-width: 600px){
+    header, footer {      
+    font-size: 14px;}
+}

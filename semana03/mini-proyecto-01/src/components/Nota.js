@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Nota.css';
+import '../style/Nota.css';
 function Nota({ nota, onDelete, onEdit }) {
     const [editando, setEditando] = useState(false);
     const [nuevoTexto, setNuevoTexto] = useState(nota.texto);

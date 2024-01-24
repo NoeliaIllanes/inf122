@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Nota from './Nota';
-import '../styles/ListaNotas.css';
+import '../style/ListaNotas.css';
 
 function ListaNotas() {
     const [notas, setNotas] = useState([]);
