@@ -13,8 +13,8 @@ export default function Profile(){
                 <Image src={prof} className={style["profile-image"]}></Image>
             </div>
             <div className={style["text-container"]}>
-                <h1 className={style.title}>Victor Alvarado</h1>
-                <p className={style["short-description"]}>Software Engineer</p>
+                <h1 className={style.title}>Noelia Illanes</h1>
+                <p className={style["short-description"]}>Junior Developer</p>
                 <div className={style["icons-container"]}>
                     <div className={style["icons-container"]}>
                         <a href="https://github.com/NoeliaIllanes"><Image src={git}></Image></a>

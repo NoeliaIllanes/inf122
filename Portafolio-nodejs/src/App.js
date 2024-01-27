@@ -5,8 +5,6 @@ import Profile from './components/Profile';
 import Data  from './components/Data';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Metas from "./components/Metas"
-import Mis from './components/Mis';
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
@@ -17,8 +15,6 @@ function App() {
       <Data/>
       <Contact/>
       <Portfolio/>
-      <Mis/>
-      <Metas/>
     </div>
   );
 }
